@@ -1,0 +1,38 @@
+.column {
+  padding-left: 20px; 
+  float: left;
+  width: 30%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.image-box {
+    margin: 0 20px;
+    flex: 1 1 300px;
+    background-color: #fff; /* Added background color */
+    transition: transform 0.3s ease; /* Added transition for hover effect */
+}
+.image-box:hover {
+    transform: scale(1.1); /* Added hover effect */
+}
+.image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px; /* Added border radius to top corners */
+    box-shadow: 0px 10px 48px 4px rgba(0,0,0,0.2);
+}
+.image-box p {
+    margin: 15px;
+    color: #333; /* Added text color */
+}
+
+section a {
+   font-family: Arial, sans-serif;
+   text-decoration: none;
+   text-align: center;
+}

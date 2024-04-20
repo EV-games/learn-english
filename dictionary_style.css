@@ -1,0 +1,30 @@
+/* Create three equal columns that floats next to each other */
+.column {
+  padding-left: 20px; 
+  float: left;
+  width: 30%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ul {
+	list-style-type: none;
+}
+
+section ul li {
+    margin-right: 30px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+section ul li a {
+	text-decoration: none;
+	color: #000;
+}
+
+
