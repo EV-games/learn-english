@@ -1,0 +1,105 @@
+#container {
+    text-align: center;
+    margin-top: 50px;
+}
+.bg {
+    padding-top: 50px;
+    height: 600px;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 0px 10px 48px 4px rgba(0,0,0,0.3);
+}
+
+#startButton {
+    margin-top: 10%;
+    padding: 20px 60px;
+    font-size: 32px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    border-style: solid;
+    transition: background-color 0.5s ease-in;
+}
+
+#startButton:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+#gameArea {
+    display: none;
+    margin-top: 20px;
+}
+
+#gameArea img {
+    width: 25%;
+    height: 20%;
+    margin: 10px;
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+#gameArea img:hover {
+    transform: scale(1.05);
+}
+
+.imageRow {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.imageText {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#score {
+    display: none;
+    margin-top: 5%;
+    font-size: 60px;
+    color: #fff;
+}
+
+#playAgainButton {
+    margin-top: 10%;
+    padding: 20px 60px;
+    font-size: 32px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    border-style: solid;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#playAgainButton:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+h2,h3 {
+    text-align: center;
+    color: #fff !important;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
